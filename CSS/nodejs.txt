@@ -1,0 +1,16 @@
+node.js- runtime environment
+consists of
+*built on v8 engine
+*libUV
+
+Node.js has features like:
+*asynchronus/non-blocking
+*event driven
+*single threaded
+
+how nodejs handles in single thread?
+
+
+
+
+
