@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.first {
+    background-color : red;
+    height: 300px;
+    width: 400px;
+    /* padding:20px; */
+    margin:30px;
+    padding: 10px 20px 10px 20px;
+}
+
+.second {
+    background-color : green;
+    height: 300px;
+    width: 400px;
+    margin: 30px;
+    padding:10px 20px;
+    border: 8px solid black;
+}
+
+.third {
+    background-color : blue;
+    height: 300px;
+    width: 400px;
+}
