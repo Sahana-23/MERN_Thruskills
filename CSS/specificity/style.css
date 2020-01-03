@@ -1,0 +1,20 @@
+*{
+    color: red;
+}
+
+h1{
+    color: blue;
+}
+
+.head1{
+    color: green;
+}
+
+#head2{
+    color: grey;
+}
+
+
+/* .head1{
+    color: green;
+} */

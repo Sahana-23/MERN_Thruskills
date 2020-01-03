@@ -1,0 +1,38 @@
+/* universal selector */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* element selector */
+h1{
+    padding: 10px;
+    color:tomato;
+}
+
+/* class selectors */
+.para{
+    color: blue;
+    padding: 10px;
+    line-height: 30px;
+}
+
+/* ID selectors */
+#myPara{
+    color: coral;
+    padding: 10px;
+    line-height: 30px;
+}
+
+/* adjacent selectors */
+
+h1 + p{
+    font-style: italic;
+}
+
+/* attribute selectors */
+
+p[class]{
+    color: yellowgreen;
+}
+

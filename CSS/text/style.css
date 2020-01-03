@@ -1,0 +1,16 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size:60px;
+    font-weight: 700;
+}
+p{
+    font-size: 26px;
+    font-style: italic;
+    font-variant: none;
+    line-height: 50px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
