@@ -1,0 +1,47 @@
+@media(min-width: 768px){
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+ display: flex;
+ /* align-items: flex-start; or flex-end, center, flex-strech(default) */
+
+ /* flex-direction: column; */
+}
+
+.container2{
+    display: flex;
+
+    justify-content: space-between;
+    /* justify-content: flex-start(default); or flex-end,center,space-between,space-around */
+}
+
+.box,.box2 {
+    border: 1px black solid;
+    padding: 10px;
+}
+
+.b1{
+    flex:2;
+    order: 2;
+}
+
+.b2{
+    /* flex:4; */
+    flex:1;
+    order: 3;
+}
+
+.b3{
+    flex:1;
+    order: 1;
+}
+
+.box2{
+    flex-basis: 32%; /*similar to width property but is responsive for flex type */
+}

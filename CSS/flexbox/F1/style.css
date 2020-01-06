@@ -6,7 +6,7 @@
 .container {
     background-color: bisque;
     display: flex;
-    /* flex-wrap:  wrap-reverse ; */
+    flex-wrap:  wrap-reverse ;
     /* flex-flow: row; row-reverse, column, column-reverse      */
 }
 
@@ -21,7 +21,7 @@
 
 .one {
     background-color: red;
-    /* flex-grow: 1; */
+    flex-grow: 1;
     /* flex-shrink: 6; */
 }
 
