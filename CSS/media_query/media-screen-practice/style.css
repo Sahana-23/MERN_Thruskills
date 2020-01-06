@@ -1,0 +1,29 @@
+* {
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width:100%;
+    background-color: plum;
+    text-align: center;
+    padding: 20px;
+}
+
+.container{
+    background-color: whitesmoke;
+    margin:20px;
+    padding: 10px;
+}
+.column{
+    margin: 20px;
+    background-color: thistle;
+    padding: 20px;;
+}
+
+@media( min-width:900px){
+.container{
+    display: flex;
+}
+}
