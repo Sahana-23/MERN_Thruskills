@@ -38,5 +38,11 @@ var details = dis.bind(obj)
 console.log("Details:",details)
 details(23);
 
+//or
+// var details = dis.bind(obj,28)
+// console.log("Details:",details)
+// details();
+
+
 //can use call and apply to bind one object to another
 obj.display.call(obj2,90)
