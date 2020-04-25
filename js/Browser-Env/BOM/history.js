@@ -1,0 +1,5 @@
+console.log(history)
+// history.forward()
+// history.back()
+//history.go(2)
+//history.go(-1)
