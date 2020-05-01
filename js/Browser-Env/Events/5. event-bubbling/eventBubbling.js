@@ -6,7 +6,7 @@ ul.onclick = function(){
  alert("UL clicked")
 }
 
-li.onclick = function(e){
+li.onclick = function(){
     e.stopPropagation();
     alert("LI clicked")    
 }
