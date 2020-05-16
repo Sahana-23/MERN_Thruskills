@@ -1,0 +1,36 @@
+<h1>Welcome</h1>
+
+{{!-- data --}}
+<h2>{{name}}</h2>
+
+{{!-- HtmlData --}}
+{{{htmlData}}}
+
+
+{{!-- Looping array --}}
+<h3>Hobbies</h3>
+<ul>
+{{#each hobbies}}
+<li>{{this}}</li>
+{{/each}}
+</ul>
+
+{{!-- Conditional --}}
+<h3>Eligibility</h3>
+{{#if eligibility}}
+  <p>eligible</p>
+{{else}}
+  <p>Not eligible</p>
+{{/if}}
+
+{{!-- accessing object --}}
+{{education.degree}}
+
+{{!-- accessing array of object --}}
+<h3>Products</h3>
+{{#each products}}
+  <div>
+    <h4>{{this.name}}</h4>
+    <p>{{this.price}}</p>
+  </div>
+{{/each}}
